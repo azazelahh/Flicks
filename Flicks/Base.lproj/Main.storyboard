@@ -66,6 +66,7 @@
                                             <outlet property="posterImage" destination="37V-s8-2d4" id="pcR-E9-PB1"/>
                                             <outlet property="summaryLabel" destination="nm3-bM-23l" id="b4T-Hb-y6g"/>
                                             <outlet property="titleLabel" destination="xgD-If-JsV" id="RlL-Eu-kd8"/>
+                                            <segue destination="Ihs-WD-RbO" kind="push" id="Zvr-2f-C8X"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -170,7 +171,7 @@
                     <navigationItem key="navigationItem" id="ack-GQ-xGC"/>
                     <connections>
                         <outlet property="errorLabel" destination="N6T-KL-M74" id="NLp-F2-oMB"/>
-                        <outlet property="nowPlayingTableView" destination="RBO-tH-aQd" id="zAK-mK-4WK"/>
+                        <outlet property="topRatedTableView" destination="RBO-tH-aQd" id="AMt-db-P8I"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
@@ -288,4 +289,7 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina5_5.fullscreen"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="1Nd-bV-VRH"/>
+    </inferredMetricsTieBreakers>
 </document>
